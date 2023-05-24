@@ -1,0 +1,75 @@
+h3 {
+  font-size: 20px;
+}
+
+ul {
+  padding: 1px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+
+.grid img {
+  width: 55%;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #70d3e6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.current {
+  padding: 25px 0 0 0;
+}
+
+.current-icon {
+  width: 20%;
+}
+
+.hourly {
+  position: relative;
+  bottom: 105px;
+  text-align: center;
+  padding: 25px 0 0 275px;
+  font-size: 14px;
+}
+
+.hourly-icons {
+  width: 35%;
+  padding: 10px 0 0 0;
+}
+
+.forecast {
+  text-align: center;
+  padding: 25px;
+}
+
+.forecast-icons {
+  width: 55%;
+  padding: 15px 0 0 0;
+}
