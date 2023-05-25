@@ -73,3 +73,8 @@ a {
   width: 55%;
   padding: 15px 0 0 0;
 }
+
+.git-hub-link {
+  text-align: center;
+  font-size: 13px;
+}
